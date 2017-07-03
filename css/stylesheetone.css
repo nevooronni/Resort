@@ -1,0 +1,43 @@
+body {
+  background: #e5efee;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #65c7c6;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  color: #65c7c6;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ul {
+  background-color: rgb(101,199,198);
+}
+
+li {
+  font-family: sans-serif;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+
+footer {
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+footer h4 {
+  color: #65c7c6;
+}
