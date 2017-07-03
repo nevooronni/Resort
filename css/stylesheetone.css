@@ -64,10 +64,18 @@ footer h4 {
   margin: 0 10px 0 10px;
 }
 
-#activities {
+.activities {
   margin: 10px 250px;
 }
 
-#travel {
+.travel {
   margin: 0 600px 0 600px;
+}
+
+#pictures {
+  margin: 10px 30px 10px 30px;
+}
+
+.bold {
+  font-weight: bold;
 }
