@@ -31,6 +31,12 @@ ul {
   text-align: center;
 }
 
+ol {
+  background-color: rgb(101,199,198);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 li {
   font-family: sans-serif;
 }
@@ -60,4 +66,8 @@ footer h4 {
 
 #activities {
   margin: 10px 250px;
+}
+
+#travel {
+  margin: 0 600px 0 600px;
 }
