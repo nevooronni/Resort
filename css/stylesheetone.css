@@ -56,7 +56,7 @@ footer h4 {
   color: #65c7c6;
 }
 
-.accomodations {
+#accomodations {
   margin: 10px 250px;
 }
 
@@ -78,4 +78,9 @@ footer h4 {
 
 .bold {
   font-weight: bold;
+}
+
+#contact {
+  margin: 10px 120px;
+}
 }
