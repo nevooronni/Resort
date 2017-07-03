@@ -1,0 +1,86 @@
+body {
+  background: #858585;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #65c7c6;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  color: #65c7c6;
+}
+
+h3 {
+  text-align: center;
+  color: #65c7c6
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  background-color: rgb(101,199,198);
+  padding: 10px;
+  text-align: center;
+}
+
+ol {
+  background-color: rgb(101,199,198);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-family: sans-serif;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+
+footer {
+  text-align: center;
+  margin: 0 30px 0 30px;
+}
+
+footer h4 {
+  color: #65c7c6;
+}
+
+#accomodations {
+  margin: 10px 250px;
+}
+
+.footer {
+  margin: 0 10px 0 10px;
+}
+
+.activities {
+  margin: 10px 250px;
+}
+
+.travel {
+  margin: 0 600px 0 600px;
+}
+
+.pictures {
+  margin: 10px 30px 10px 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#contact {
+  margin: 10px 120px;
+}
+}
