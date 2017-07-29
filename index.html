@@ -3,36 +3,60 @@
   <head>
     <link href="css/stylesheetone.css" rel="stylesheet" type="text/css">
     <title>Home Page</title>
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">    
+    </script>
   </head>
 
   <body>
-    <img src="img/resort.jpg" alt="image of a private island resort"><br/>   
-    <h1>The private island resort<h1>
-    <h2>a distincitve 800-acre private island hideaway</h2>
-    <p>The Private Island Resort, a beachfront resort in Turks & Caicos, redefines “barefoot luxury” by offering visitors a romantic hideaway experience.  Situated on one of the best beaches in the Caribbean, this is an ideal getaway for those who want to experience a true private island resort and leave the worries of day-to-day life behind. Technology is replaced by nature, prepared foods by divine culinary achievements, and water activities reign over anything else.</p>
-    <p>With a unique airport, interesting history, and a location off the 72nd meridian, guests can enjoy privacy, tranquility, and the company of a few others with the same passion at a small resort in the Turks & Caicos. They come away with new friendships created with other guests and our friendly staff…usually after drive-in movie night on golf carts.</p>
-    <p>Aside from the perfect escape for couples, the resort is also an ideal venue for a private wedding, family reunion, multi-generational vacation, corporate retreat, special birthday/anniversary celebration or any other occasion suitable to rent the entire island, allowing for up to 80 guests to enjoy the facilities including home rentals.</p>
+    <div>
+      <img src="img/resort.jpg" alt="image of a private island resort"><br/>   
+      <h1>The private island resort<h1>
+      <h2>a distincitve 800-acre private island hideaway</h2>
+      <p>The Private Island Resort, a beachfront resort in Turks & Caicos, redefines “barefoot luxury” by offering visitors a romantic hideaway experience.  Situated on one of the best beaches in the Caribbean, this is an ideal getaway for those who want to experience a true private island resort and leave the worries of day-to-day life behind. Technology is replaced by nature, prepared foods by divine culinary achievements, and water activities reign over anything else.</p>
+      <p>With a unique airport, interesting history, and a location off the 72nd meridian, guests can enjoy privacy, tranquility, and the company of a few others with the same passion at a small resort in the Turks & Caicos. They come away with new friendships created with other guests and our friendly staff…usually after drive-in movie night on golf carts.</p>
+      <p>Aside from the perfect escape for couples, the resort is also an ideal venue for a private wedding, family reunion, multi-generational vacation, corporate retreat, special birthday/anniversary celebration or any other occasion suitable to rent the entire island, allowing for up to 80 guests to enjoy the facilities including home rentals.</p>
 
-    <p>Take part in Turks and Caicos excursions on your own schedule. Snorkel. Kayak. Fish. Hike. Sail. Paddleboard. Explore. Dive. Bike. Play tennis. 
-       Walk the most private beach you have ever seen. Savor the taste of unique local cuisine.<p>
+      <p>Take part in Turks and Caicos excursions on your own schedule. Snorkel. Kayak. Fish. Hike. Sail. Paddleboard. Explore. Dive. Bike. Play tennis. 
+         Walk the most private beach you have ever seen. Savor the taste of unique local cuisine.<p>
 
-    <p>Recover from a life with endless demands, and find your <em>inner peace…</em></p>
-    <ul>
-      <li><a href="pages/accomodations.html">Accomodations</a></li>
-      <li><a href="pages/activities.html">Activities</a></li>
-      <li><a href="pages/travelarrangements.html">Travel Arrangements</a></li>
-      <li><a href="pages/pictures.html">Pictures</a></li>
-      <li><a href="pages/contactinformation.html">Contact Information</a></li>
-    </ul>  
-    <footer>
-      <h4>private island resort</h4>
-      <h4>888.286.7993 | RESERVATIONS@PRIVATEISLANDRESORT.COM</h4>
-      <a href="https://facebook.com/" class="footer"><img src="img/facebook.png" alt="facebook logo"></a>
-      <a href="https://youtube.com/" class="footer"><img src="img/youtube.png" alt="youtube logo"></a>
-      <a href="https://instagram.com/" class="footer"><img src="img/instagram.jpg" alt="instagram logo"></a>
-      <a href="https://twitter.com/" class="footer"><img src="img/twitter.jpg" alt="twitter logo"></a>
-      <a href="https://google+.com/" class="footer"><img src="img/google+.png" alt="google+ logo"></a>
-    </footer>
+      <p>Recover from a life with endless demands, and find your <em>inner peace…</em></p>
+      <ul>
+        <li><a href="pages/accomodations.html">Accomodations</a></li>
+        <li><a href="pages/activities.html">Activities</a></li>
+        <li><a href="pages/travelarrangements.html">Travel Arrangements</a></li>
+        <li><a href="pages/pictures.html">Pictures</a></li>
+        <li><a href="pages/contactinformation.html">Contact Information</a></li>
+      </ul>
+    </div>
 
+    <div id="subscribe">
+      <h2 id="new">Wish to know more just SUBSCRIBE!</h2>
+      <form id="user">
+        <input name="name" value="name" type="text" id="name">
+        <input name="email" value="email" type="text" id="email">
+        <button type="submit" id="button">SUBSCRIBE</button>
+      </form>
+    </div>
+
+    <div id="output">
+      <p id="hide">Thank you <span id="input1"></span> for subscribing to our newsletter an email has been sent to <span id="input2"></span>!</p>
+    </div>
+
+    <div id="footer">
+      <footer>
+        <h4>private island resort</h4>
+        <h4>888.286.7993 | RESERVATIONS@PRIVATEISLANDRESORT.COM</h4>
+        <a href="https://facebook.com/" class="footer"><img src="img/facebook.png" alt="facebook logo"></a>
+        <a href="https://youtube.com/" class="footer"><img src="img/youtube.png" alt="youtube logo"></a>
+        <a href="https://instagram.com/" class="footer"><img src="img/instagram.jpg" alt="instagram logo"></a>
+        <a href="https://twitter.com/" class="footer"><img src="img/twitter.jpg" alt="twitter logo"></a>
+        <a href="https://google+.com/" class="footer"><img src="img/google+.png" alt="google+ logo"></a>
+      </footer>
+    </div>
+
+    <!--custom js-->
+    <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>  

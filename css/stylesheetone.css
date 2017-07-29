@@ -47,10 +47,7 @@ h4 {
 }
 
 
-footer {
-  text-align: center;
-  margin: 0 30px 0 30px;
-}
+footer {   text-align: center;   margin: 80px 30px 0px -390px; }
 
 footer h4 {
   color: #65c7c6;
@@ -83,4 +80,52 @@ footer h4 {
 #contact {
   margin: 10px 120px;
 }
+
+
+#subscribe {
+  margin-top: 30px;
+  margin-left: 550px;
 }
+
+#button {
+  background-color: rgb(101,199,198);
+}
+
+#new {
+  margin-right: 550px;
+}
+
+input {
+  color: rgb(101,199,198);
+  border-color: transparent;
+}
+
+form {
+  padding-top: 20px;
+}
+
+input, button {
+  height: 20px;
+  text-align: left;
+}
+
+#output {
+  display: none;
+  background-color: transparent;
+  margin-bottom: 170px;
+}
+
+#hide {
+  position: absolute;
+  top: 1715px;
+  left: 290px;
+  font-size: 20px;
+  color: rgb(101,199,198);
+  margin-bottom: 50px;
+}
+
+#footer {
+  margin-left: 450px;
+}
+
+
